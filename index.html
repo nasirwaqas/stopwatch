@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+    <div class = "heading">
+    <h1>Stop Watch</h1>
+    </div>
+    <div class="number">
+        <h5 id="min">00 </h5>
+        <h5 id="sec">00  </h5>
+        <h5 id="msec">00 </h5>
+    </div>
+    <div class="btn">
+        <button id="strtbtn" onclick="start()" type="button" class="btn btn-primary btn-sm">start</button>
+        <button onclick="stop()" type="button" class="btn btn-danger btn-sm">Stop</button> 
+        <button onclick="reset()" type="button" class="btn btn-warning btn-sm">reset</button>
+        
+    </div>
+</div>
+</body>
+<script src="apps.js"></script>
+</html>

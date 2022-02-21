@@ -1,0 +1,31 @@
+.main{
+   width: 30%;
+   margin-top: 10%;
+   margin-left: 30%;
+    background-color: rgb(238, 188, 213);
+    color: rgb(36, 17, 206)
+    
+}
+body{
+   
+    background-color: rgb(238, 231, 133);
+}
+.number{
+display: flex;
+justify-content: space-evenly;
+}
+.heading{
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+}
+
+.btn{
+    display: inline-flex !important;
+    width: 69%;
+    align-items: center;
+    margin-left: 10%;
+    
+ 
+
+}
